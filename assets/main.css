@@ -304,6 +304,13 @@
     color: #212529;
     padding-bottom: 280px;
 }
+@media screen and (max-width:500px){
+    .section__2-5{
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 150px;
+    }
+}
 
 
 .section__2-5 .logo-mesh{
@@ -316,6 +323,14 @@
     .section__2-5 .logo-mesh{
         width: 580px;
         height: 461px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .section__2-5 .logo-mesh{
+        width: 300px;
+        height: 250px;
+        padding-bottom: 15px;
     }
 }
 
@@ -333,6 +348,11 @@
     .section__2-5 h3{
         font-size: 64px;
         padding-left: 50px;
+    }
+}
+@media screen and (max-width:500px){
+    .section__2-5 h3{
+        font-size: 44px;
     }
 }
 
@@ -363,6 +383,12 @@
         padding-bottom: 40px;
     }
 }
+@media screen and (max-width:500px){
+    .section__2-5 p{
+        font-size: 16px;
+        padding-right: 35px;
+    }
+}
 .section__2-5 a{
     padding-left: 100px;
     color: #FFFFFF;
@@ -385,6 +411,12 @@
         margin-left: 50px;
     }
 }
+@media screen and (max-width:500px){
+    .section__2-5 a{
+        font-size: 15px;
+        padding: 15px 20px;
+    }
+}
 .section__2-6{
     display: flex;
     overflow: clip;
@@ -399,6 +431,13 @@
     padding-bottom: 280px;
 
 }
+@media screen and (max-width:500px){
+    .section__2-6{
+        flex-direction:column;
+        padding-top: 50px;
+        padding-bottom: 150px;
+    }
+}
 .section__2-6 .seemsok2-6{
     width:686px;
     height:479px;
@@ -409,7 +448,13 @@
         height: 400px;
     }
 }
-
+@media screen and (max-width:500px){
+    .section__2-6 .seemsok2-6{
+        width: 390px;
+        height: 290px;
+        padding-top: 50px;
+    }
+}
 .section__2-6 h3{
     font-family: 'Inter';
     font-style: normal;
@@ -426,6 +471,13 @@
         padding-left: 50px;
     }
 }
+@media screen and (max-width:500px){
+    .section__2-6 h3{
+        font-size: 45px;
+        line-height: 50px;
+    }
+}
+
 .section__2-6 span{
     background-image: url(/images/yellow___underline__2.svg);
     background-repeat: no-repeat;
@@ -451,6 +503,16 @@
         padding-left: 50px;
     }
 }
+@media screen and (max-width:500px){
+    .section__2-6 p{
+        line-height: 25px;
+        font-size: 16px;
+        padding-right: 25px;
+        padding-left: 25px;
+        padding-bottom: 20px;
+
+    }
+}
 
 .section__2-6 a{
     color: #FFFFFF;
@@ -467,6 +529,14 @@
 }
 @media screen and (max-width:1600px){
     .section__2-6 a{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:500px){
+    .section__2-6 a{
+        font-size: 16px;
+        padding: 15px 20px;
+        margin-bottom: 50px;
         margin-left: 50px;
     }
 }

@@ -22,8 +22,15 @@
     justify-content: space-between;
 }
 
+
 .footer-logo {
     width: 300px;
+}
+@media screen and (max-width:500px){
+    .footer-logo{
+        padding-left: 50px;
+        padding-bottom: 25px;
+    }
 }
 
 .footer-logo_it {
@@ -93,6 +100,11 @@
     letter-spacing: -0.02em;
     color: #FFFFFF;
 }
+@media screen and (max-width:500px){
+    .grow h2{
+        padding-left: 80px;
+    }
+}
 
 .grow p {
     font-family: 'Inter';
@@ -103,6 +115,11 @@
     letter-spacing: -0.02em;
     color: #FFFFFF;
     margin: 23px 0;
+}
+@media screen and (max-width:500px){
+    .grow p{
+        padding-left: 50px;
+    }
 }
 
 .grow button {
@@ -171,9 +188,10 @@
 @media only screen and (max-width: 900px) {
     .container {
         flex-direction: column;
-        align-items: center;
-        text-align: center;
+        align-items: left;
+        text-align: left;
         margin-bottom: 20px;
+        margin-left: 100px;
     }
     .info{
         margin: 25px 0;

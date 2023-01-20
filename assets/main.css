@@ -696,6 +696,14 @@
     color: #212529;
     padding-bottom: 300px;
 }
+@media screen and (max-width:500px){
+    .section__4{
+        flex-direction: column;
+        background-image: url(/images/section__4.svg);
+        background-repeat: no-repeat;
+        background-size: 200%;
+    }
+}
 .section__4 h2{
     font-family: 'Inter';
     font-style: normal;
@@ -705,6 +713,12 @@
     letter-spacing: -0.02em;
     color: #212529;
 
+}
+@media screen and (max-width:500px){
+    .section__4 h2{
+        font-size: 45px;
+        padding-left: 20px;
+    }
 }
 .section__4 h2 span{
     background-image: url(/images/section_4_yellow.svg);
@@ -724,6 +738,22 @@
     color: #212529;
     padding-bottom: 60px;
 }
+@media screen and (max-width:500px){
+    .section__4 p{
+        font-size: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+.section__4 .section-image{
+    width: 681px;
+    height: 381.13px;
+}
+@media screen and (max-width:500px){
+    .section__4 .section-image{
+        display: none;
+    }
+}
 
 .section__4 a{
     background-color: #4F9CF9;
@@ -733,6 +763,12 @@
     color: #FFFFFF;
 
 }
+@media screen and (max-width:500px){
+    .section__4 a{
+        margin-left: 90px;
+
+    }
+}
 .section__5{
     display: flex;
     gap: 216px;
@@ -740,6 +776,16 @@
     padding-top: 100px;
     padding-bottom: 177px;
 
+}
+@media screen and (max-width:500px){
+    .section__5 img{
+        width: 80px;
+    }
+    .section__5{
+        gap: 15px;
+        padding-bottom: 150px;
+        padding-top: 50px;
+    }
 }
 .logo-master{
     font-family: 'Inter';
@@ -750,6 +796,11 @@
     text-align: center;
     letter-spacing: -0.02em;
     color: #212529;
+}
+@media screen and (max-width:500px){
+    .logo-master{
+        font-size: 50px;
+    }
 }
 .logo-master span{
     background-image: url(/images/yellow___underline__2.svg);

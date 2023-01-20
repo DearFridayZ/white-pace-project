@@ -13,6 +13,12 @@
     margin-bottom: 140px;
 }
 
+@media screen and (max-width:500px){
+    .price-list{
+        flex-direction: column;
+    }
+}
+
 
 .h2{
     font-family: 'Inter';
